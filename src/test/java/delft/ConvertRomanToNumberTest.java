@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class ConvertRomanToNumberTest {
 
     @Test
-    public void ourFirstTest(){
-
+    public void oneRomanNumeral(){
+        assertEquals(1, ConvertRomanToNumber.convertStringToNumber("I"));
     }
 
 
